@@ -1,0 +1,48 @@
+body{
+	width: 100%;
+	height: 100%;
+	background: #262626;
+}
+.css-header-ul{
+	float: left;
+	margin-top: .22rem;
+	margin-left: 5%;
+	margin-left: 5%;
+	width: 90%;
+	height: .7rem;
+	border-radius: 0.1rem;
+	border: 0.01rem solid #5a5a5a;
+}
+.css-header-ul li{
+	float: left;
+	width: 50%;
+	height: .7rem;
+	font-size: .33rem;
+	text-align: center;
+	line-height: .7rem;
+	color: #33c7f7 ;
+}
+.active{
+	background: #33c7f7;
+	color: #262626!important;
+	border-radius:  0.1rem;
+}
+/*main*/
+.css-main{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 1rem;
+	float: left;
+	margin-top: .4rem;
+	/*width: 100%;*/
+	/*height: 100%;*/
+	background: #333333;
+}
+.css-project,.css-unit{
+	/*width: 100%;*/
+	/*height: 100%;*/
+	display: none;
+	color: #fff;
+}

@@ -1,0 +1,15 @@
+table{
+	overflow: auto;
+}
+.css-auto{
+	overflow: auto;
+	margin-right: 5rem;
+}
+td{
+	width: 1rem !important;
+	text-align: center;
+	padding: 0.1rem;
+}
+.tr01,.tr02,.tr03{
+	font-weight: 700;
+}

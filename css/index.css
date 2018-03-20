@@ -1,0 +1,104 @@
+body{
+	width: 100%;
+	height: 100%;
+	background: #262626;
+}
+/*头部*/
+.css-header-box{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 1.23rem;
+}
+
+.css-title{
+	width: 6rem;
+	height: .7rem;
+	line-height: .7rem;
+	text-align: center;
+	text-decoration: underline;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+/*首页*/
+.css-index-rate{
+	height: 4rem!important;
+	background: #333333;
+	color: #33c7f7;
+	/*新加*/
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.css-index-rate-left{
+	float: left;
+	margin-top: .5rem;
+	width: 50%;
+	height: 3rem;
+	text-align: center;
+}
+.css-reateWords{
+	padding-left: .3rem;
+	padding-top: .3rem;
+}
+.css-data{
+	height: .6rem;
+	margin-left: .3rem;
+	line-height: .6rem;
+	color: #f9d21a;
+}
+.css-index-rate-right{
+	float: right;
+	width: 50%;
+	height: 4rem;
+}
+.css-triangle{
+	color: #f91a63;
+}
+.css-triangledown{
+	color: green;
+}
+.css-numberValue{
+	margin-top: .3rem;
+	height: 100%;
+	padding-bottom: 1rem;
+	background: #333333;
+}
+.css-numberValueTop{
+	margin: auto;
+	width: 4rem;
+	height: 1rem;
+}
+.css-numberValueTop p{
+	margin: auto;
+	width: 3rem;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	font-size: .3rem;
+	color: #33c7f7;
+}
+.css-numberValueTop p a{
+	text-decoration: underline;
+}
+.css-numberValue-charts{
+	width: 100%;
+	height: 5rem;
+	/*新加*/
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*单位*/
+.css-unit-box,.css-project-box{
+	height: 10.83rem;
+	color: #fff;
+	background: #333333;
+}
